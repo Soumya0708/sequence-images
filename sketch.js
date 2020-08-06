@@ -3,11 +3,14 @@ var gamestate=0
 
 function setup(){
     canvas=createCanvas(displayWidth,displayHeight)
+    story=new Story()
    
  }
     function draw(){
       if( gamestate===0){
-        story=new Story()
         story.display();
+     }
+     else if(gamestate===1){
+       
      }
      }
